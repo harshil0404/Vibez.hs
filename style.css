@@ -141,9 +141,9 @@ span.king{
     color: gold;
     font-size: 18px;
     font-family: 'Sriracha', cursive;
-    font-weight: 900;
     text-align: center;
     bottom: -10px;
+    font-weight: bold;
     position: relative;
     left: -10px;
     width:100%;
