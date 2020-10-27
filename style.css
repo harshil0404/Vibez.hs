@@ -2,7 +2,7 @@ html{
     background: linear-gradient(to bottom,#1a0024,#3b0052,#560078,#71009e,#9d00db,#b700ff);
     /* background-image: url('./images/back.jpg'); */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     height:auto;
     min-height: 100%;
     font-family: 'Lemonada', cursive;
@@ -109,9 +109,6 @@ input[type="search"]{
     padding: 10px 20px 10px 20px;
     cursor: pointer;
 }
-.wrapper nav .search-btn{
-    display: none;
-}
 .profile{
     float:right ;
     font-size:27px;
@@ -126,18 +123,6 @@ input[type="search"]{
     float:right;
     font-size: 30px;
     margin: 5px 10px 0px 0px;
-}
-.adv-search{
-    z-index: 1;
-    padding: 10px;
-    background-color: lightgrey;
-    margin-top:10px;
-    border:1px solid black;
-    width:35%;
-    transition: 0.3s;
-    transform:scale(0);
-    position: relative;
-    left:101px;
 }
 .app-name{
     display: block;
